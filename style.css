@@ -1,0 +1,79 @@
+body {
+    background-image: url('ayam.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  main{
+    margin: 20px;
+  }
+  .navbar ul{
+    list-style-type: none;
+    background-color: darkorange;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  .navbar a:hover{
+    background-color:rgb(173, 62, 10);
+  }
+  .navbar li{
+    float: left;
+  }
+  .kotak{
+    height: 800px;
+    width: 800px;
+    background-color: coral;
+    margin: 100px auto;
+  }
+  .image {
+    margin: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  h1{
+    margin: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 
+        0px 0px 5px black,  /* Shadow putih lebih lembut */
+        0px 0px 10px black, /* Shadow putih yang lebih besar */
+        0px 0px 15px rgb(10, 1, 1); /* Shadow putih paling besar untuk efek lebih kuat */
+  }
+  h2{
+    margin: 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(131, 11, 11);
+    text-shadow: 
+        2px 0px 5px white,  /* Shadow putih lebih lembut */
+        2px 0px 10px white, /* Shadow putih yang lebih besar */
+        2px 0px 15px rgb(245, 230, 230); /* Shadow putih paling besar untuk efek lebih kuat */
+  }
+   h3{
+    margin: 0;
+    display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      background-color: aliceblue;
+      text-shadow: 
+   }
